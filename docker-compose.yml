@@ -1,0 +1,9 @@
+services:
+  agent:
+    image: tilaa/scanner-agent
+    build: ./
+    volumes:
+      - ./:/src
+    working_dir: /src
+    profiles:
+      - donotstart
