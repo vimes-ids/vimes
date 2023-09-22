@@ -1,0 +1,13 @@
+stream:
+  host: localhost
+  port: 31415
+
+mail:
+  recipient: root@localhost
+
+paths:
+  - /etc
+  - /bin
+
+exclude:
+  - ^/etc/deluser.conf$

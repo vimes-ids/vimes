@@ -12,6 +12,8 @@ really hard for attackers to do something unnoticed.
 `vimes init` will initialize the database.
 `vimes baseline` log the current state into the database.
 `vimes check` will check if there are new ports listening, files changes, or kernel modules loaded.
+`vimes run` will start an infinite process, that streams checks.
+
 
 ## What's with the name?
 
@@ -19,4 +21,5 @@ vimes is named after His Grace, the Duke of Ankh, Commander Sir Samuel Vimes of
 the Ankh-Morpork City Watch, a fictional character in Terry Pratchett's
 Discworld series. Vimes is depicted in the novels as somewhere between an
 Inspector Morse-type 'old-school' British policeman, and a film noir-esque
-grizzled detective.
+grizzled detective, which we found fitting for a tool that detects unwanted
+changes.
